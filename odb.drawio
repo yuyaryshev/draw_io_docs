@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T14:40:36.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="4YuHNqzsGYhdWbSvr9Tu" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-04T14:43:07.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tjvzN4TlQeYanZLZRIwd" version="14.8.4" type="github">
   <diagram id="9HvD0sz4udPKi0_lL-Rm" name="Page-1">
     <mxGraphModel dx="5204" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -121,11 +121,11 @@
             <mxPoint x="1260" y="2965" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oTxO169JMgiFp66qN5_v-38" value="odbExec({actionPath, actionData}) =&amp;gt; result {&lt;br&gt;// TODO Получить ссылку на элемент объекта actionPath&lt;br&gt;containerRef = &amp;lt;container&amp;gt;_open(pathPart) // Рекурсивно&lt;br&gt;&lt;br&gt;// TODO Делегирует Action на функцию-реализацию контейнера&lt;br&gt;result =&amp;nbsp; &amp;nbsp;&amp;lt;container&amp;gt;_&amp;lt;action&amp;gt;(containerRef, actionData)&lt;br&gt;&lt;br&gt;// TODO Сохраняет read&#39;ы (get&#39;ы) - факт обращения к полю actionPath&lt;br&gt;&lt;br&gt;// TODO Сохраняет write&#39;ы (set&#39;ы) - факт изменения поля actionPath&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="oTxO169JMgiFp66qN5_v-38" value="odbExec({actionPath, actionData}) =&amp;gt; result {&lt;br&gt;// TODO Resolve actionPath - получить ссылку на элемент объекта&lt;br&gt;containerRef = &amp;lt;container&amp;gt;_open(pathPart) // Рекурсивно&lt;br&gt;&lt;br&gt;// TODO Делегирует Action на функцию-реализацию контейнера&lt;br&gt;result =&amp;nbsp; &amp;nbsp;&amp;lt;container&amp;gt;_&amp;lt;action&amp;gt;(containerRef, actionData)&lt;br&gt;&lt;br&gt;// TODO Сохраняет read&#39;ы (get&#39;ы) - факт обращения к полю actionPath&lt;br&gt;&lt;br&gt;// TODO Сохраняет write&#39;ы (set&#39;ы) - факт изменения поля actionPath&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="10" y="2800" width="610" height="310" as="geometry" />
         </mxCell>
         <mxCell id="oTxO169JMgiFp66qN5_v-39" value="Цикл обработки, который возможно вызывается сразу в момент изменения поля.&lt;br&gt;&lt;br&gt;// Обновление зависимых computed обьектов" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3140" width="540" height="180" as="geometry" />
+          <mxGeometry x="10" y="3140" width="610" height="180" as="geometry" />
         </mxCell>
         <mxCell id="oTxO169JMgiFp66qN5_v-40" value="FA_..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="670" y="2730" width="120" height="60" as="geometry" />
